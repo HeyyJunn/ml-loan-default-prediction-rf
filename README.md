@@ -21,10 +21,23 @@ The overall strategy was:
 
 ## 2. Repository Structure / 저장소 구조
 
-text ml-loan-default-prediction-rf/ ├── notebooks/ │   └── ml-loan-default-prediction.ipynb ├── data/ │   └── README.md ├── output/ │   └── sample_id_status.csv ├── models/ │   └── .gitkeep ├── README.md ├── requirements.txt └── .gitignore 
+```text
+ml-loan-default-prediction-rf/
+├── notebooks/
+│   └── ml-loan-default-prediction.ipynb
+├── data/
+│   └── README.md
+├── output/
+│   └── sample_id_status.csv
+├── models/
+│   └── .gitkeep
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
 
-train.csv, test.csv, and .pkl model files are excluded from Git tracking.  
-train.csv, test.csv, .pkl 모델 파일은 Git 추적 대상에서 제외했습니다.
+`train.csv`, `test.csv`, and `.pkl` model files are excluded from Git tracking.  
+`train.csv`, `test.csv`, `.pkl` 모델 파일은 Git 추적 대상에서 제외했습니다.
 
 ---
 
