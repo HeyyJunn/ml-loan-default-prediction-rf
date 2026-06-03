@@ -1,0 +1,38 @@
+# macOS / system
+.DS_Store
+__MACOSX/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Raw / course-provided data
+# Do not publish train/test data unless the dataset license or instructor permits it.
+data/train.csv
+data/test.csv
+
+# Model artifacts
+*.pkl
+*.joblib
+models/*.pkl
+models/*.joblib
+
+# Large experiment artifacts
+mlruns/
+wandb/
+
+# Temporary files
+*.log
+*.tmp
